@@ -37,9 +37,7 @@ img {
   display: block;
   height: 100%;
 }
-.main-header {
-  padding: 0 65px;
-}
+
 .header-navigation {
   display: flex;
   gap: 20px;
@@ -195,7 +193,7 @@ img {
 }
 
 .about-us {
-  padding: 50px 65px;
+  padding: 50px 0;
 }
 
 .about-us-title {
@@ -247,7 +245,7 @@ img {
 /* ---------catalog------- */
 
 .catalog {
-  padding: 50px 65px;
+  padding: 50px 0;
 }
 
 .catalog-title {
@@ -293,7 +291,7 @@ img {
 
 /* ------advertisement----- */
 .advertisement {
-  padding: 50px 65px;
+  padding: 50px 0;
 }
 .advertisement-container {
   border-radius: 30px;
@@ -340,7 +338,7 @@ img {
 /* -------sale------ */
 
 .section-sale {
-  padding: 50px 65px;
+  padding: 50px 0;
 }
 
 .sale-title {
@@ -470,7 +468,7 @@ img {
 /* ------reviews------- */
 
 .section-reviews {
-  padding: 50px 65px;
+  padding: 50px 0;
 }
 
 .title-reviews {
@@ -521,7 +519,7 @@ img {
 /* -------section-contact-us------ */
 
 .section-contact-us {
-  padding: 50px 65px;
+  padding: 50px 0 100px 0;
 }
 
 .contact-use-text {
@@ -593,6 +591,7 @@ img {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  max-width: 523px;
 }
 
 .footer-tel {
@@ -607,6 +606,12 @@ img {
   width: 160px;
   height: 48px;
   padding: 15px;
+}
+
+.footer-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
 }
 
 .footer-nav {
@@ -627,6 +632,7 @@ img {
   font-size: 14px;
   line-height: 1.28571;
   color: #fbfbfb;
+  max-width: 162px;
 }
 
 .footer-text-bottom {
@@ -640,4 +646,15 @@ img {
 
 .wraper-div-foot {
   display: flex;
+  margin-bottom: 126px;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrap {
+  display: flex;
+  gap: 20px;
 }
