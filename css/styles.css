@@ -555,6 +555,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
 }
 
 .footer-logo {
@@ -592,6 +593,11 @@ img {
   text-align: center;
   color: #fbfbfb;
   max-width: 523px;
+
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .footer-tel {
@@ -606,6 +612,8 @@ img {
   width: 160px;
   height: 48px;
   padding: 15px;
+  position: absolute;
+  right: 0;
 }
 
 .footer-nav-wrap {
