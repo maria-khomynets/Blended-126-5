@@ -314,20 +314,57 @@
       </section>
 
       <section id="contact-us" class="section-contact-us">
-        <div class="container contact-us-wraper">
+        <div class="container">
+          <h2 class="contact-title">Contact Us</h2>
           <div class="contact-us-div">
-            <h2 class="contact-title">Contact Us</h2>
-            <p class="contact-use-text">
-              Please use the form below to contact us. Enter your name, email,
-              phone, and message and we'll get back to you shortly
-            </p>
-          </div>
-          <div>
-            <img
-              src="./image/rectangle-11-photoclock.png"
-              width="530"
-              alt="rectangle-11-photoclock"
-            />
+            <div class="form-wrap">
+              <p class="contact-use-text">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly
+              </p>
+
+              <form class="form">
+                <input
+                  type="text"
+                  class="input"
+                  name="user-name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="input"
+                  name="user-email"
+                  placeholder="+380"
+                  required
+                />
+
+                <input
+                  type="tel"
+                  class="input"
+                  name="user-tel"
+                  placeholder="Email"
+                  required
+                />
+
+                <textarea
+                  class="textarea"
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Comment"
+                ></textarea>
+
+                <button class="form-button" type="submit">Send</button>
+              </form>
+            </div>
+
+            <div>
+              <img
+                src="./image/rectangle-11-photoclock.png"
+                width="530"
+                alt="rectangle-11-photoclock"
+              />
+            </div>
           </div>
         </div>
       </section>
