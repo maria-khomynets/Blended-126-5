@@ -4,7 +4,7 @@ git branch -r — показує лише віддалені гілки
 
 git branch -a — показує усі гілки, як локальні, так і віддалені
 
-git switch -c name-your-branch — створює нову гілку
+git switch -c name-your-branch імя гілки — створює нову гілку
 
 git switch name-branch — перемикає на іншу гілку
 
